@@ -1,0 +1,88 @@
+
+*{
+    margin: 0;
+    padding-right: 0;
+    box-sizing: border-box;
+    font-family: "Poppins",sans-serif;
+}
+body{
+    line-height: 1.6;
+    background-image: url('https://static.wixstatic.com/media/03bd2f_4d5e8774d30b4a10a0c9f922a4fa6fbb~mv2.gif');
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+
+    background-attachment: fixed;
+}
+h1{
+    font-size: 40pt;
+    text-align: center;
+    text-decoration: none;
+    text-transform: capitalize;
+    color:#0fd630 ;
+    cursor: pointer;
+    
+
+}
+h1:hover{
+   transition: 0.3s;
+   opacity: 0.3;
+}
+form{
+display: block;
+justify-content: center;
+align-items: center;
+margin-bottom: 60px;
+
+#login_txt{
+    font-weight: bold;
+    color :#00ff4c;
+    margin-left: auto;
+    margin-right: autos;
+    font-size: 25px;
+    width: 60%;
+}
+    
+}
+.form_login{
+    margin: auto;
+    width: 50%;
+    border: 3px solid rgb(235, 93, 11);
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(14, 113, 170);
+    padding-bottom: 50px;
+    padding-left: -50px;
+    padding-right: -50px;
+    
+}
+#FullName,#UserEmail,#UserPassword{
+width: 60%;
+max-width: 400px;
+padding: 10px 20px;
+display: block;
+margin-top: 30px;
+margin-left: auto;
+margin-right: auto;
+border: none;
+box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+border-radius: 5px;
+font-size: 18px;
+color: #333;
+}
+#search_button{
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #0cf173;
+    border: none;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+    font-size: 18px;
+    cursor: pointer;
+    display: block;
+    
+
+}
